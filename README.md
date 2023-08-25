@@ -1,7 +1,7 @@
 # Introduction
 The goal of the **group** project is to design and build a remote display board that can receive serial data from the STM32-NUCLEO-L476RG and display the detected speed on two 7-segment LED displays. To do this, the receiver system was implemented using a Xilinx CPLD, which enables flexibility in design testing and updating without requiring any hardware modifications. Thus, greatly reducing the project development time. The CPLD and microcontroller communicate using an industry standard, RS485, ensuring dependable and efficient communication between the components.
 
-Refer to the report pdf attached for a better explanation of the system.
+Refer to the report **Speed_Detector_Report_2023.pdf** attached for a better explanation of the system.
 
 # Speed_Detector_STM_Xilinx
 This is the main project folder used to run the STM32-NUCLEO-L476RG board. This project was created and built on STM32CubeIDE 1.10.1. The below lists the files added or changed in this project:
