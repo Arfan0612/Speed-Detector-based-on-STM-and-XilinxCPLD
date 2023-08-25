@@ -1,5 +1,5 @@
 # Introduction
-The goal of the **group** project is to design and build a remote display board that can receive serial data from the STM32-NUCLEO-L476RG and display the detected speed on two 7-segment LED displays. To do this, the receiver system was implemented using a Xilinx CPLD, which enables flexibility in design testing and updating without requiring any hardware modifications. Thus, greatly reducing the project development time. The CPLD and microcontroller communicate using an industry standard, RS485, ensuring dependable and efficient communication between the components.
+The goal of the **group** project is to design and build a remote display board that can receive serial data from the STM32-NUCLEO-L476RG and display the detected speed on two 7-segment LED displays. To do this, the receiver system was implemented using a Xilinx CPLD XC2C64A-7VQG44C, which enables flexibility in design testing and updating without requiring any hardware modifications. Thus, greatly reducing the project development time. The CPLD and microcontroller communicate using an industry standard, RS485, ensuring dependable and efficient communication between the components.
 
 Refer to the report **Speed_Detector_Report_2023.pdf** attached for a better explanation of the system.
 
@@ -20,7 +20,7 @@ Each files that was listed has their own respective header files in Speed_Detect
 There is one file added in this directory which is **FFT.h** that is used to do FFT on ADC readings for determining the input signal's frequency.
 
 # Rx_final.zip
-This zipped folder contains all the schematics used for programming the UART receiver on the Xilinx CPLD. According to my colleague, Chin Yuen, the folder includes the final schematics used to program a Xilinx CPLD UART:
+This zipped folder contains all the schematics used for programming the UART receiver on the Xilinx CPLD XC2C64A-7VQG44C. According to my colleague, Chin Yuen, the folder includes the final schematics used to program a Xilinx CPLD XC2C64A-7VQG44C UART:
 
 ## BCDto7Seg
 BCD to 7 Segment Decoder, where the file name that does not have a "v" in it is the final schematics used.
