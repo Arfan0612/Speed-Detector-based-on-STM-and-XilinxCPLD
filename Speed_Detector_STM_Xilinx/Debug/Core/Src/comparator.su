@@ -1,0 +1,3 @@
+../Core/Src/comparator.c:16:6:rising_edge_trigger	24	static
+../Core/Src/comparator.c:36:6:Update_rollover	16	static
+../Core/Src/comparator.c:42:10:get_comp_frequency	4	static

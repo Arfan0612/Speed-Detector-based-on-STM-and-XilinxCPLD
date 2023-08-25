@@ -1,0 +1,10 @@
+../Core/Src/display.c:25:6:LCD_init	64	static
+../Core/Src/display.c:31:6:keypad_read_key	16	static
+../Core/Src/display.c:66:6:checking	16	static
+../Core/Src/display.c:91:5:cutOff	16	static
+../Core/Src/display.c:114:6:printing_speed	16	static
+../Core/Src/display.c:126:6:KPH	24	static
+../Core/Src/display.c:132:6:MPS	24	static
+../Core/Src/display.c:138:6:MPH	24	static
+../Core/Src/display.c:144:6:setTX	16	static
+../Core/Src/display.c:154:6:Output	16	static
