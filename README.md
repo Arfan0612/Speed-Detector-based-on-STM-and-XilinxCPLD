@@ -1,6 +1,8 @@
 # Introduction
 The goal of the **group** project is to design and build a remote display board that can receive serial data from the STM32-NUCLEO-L476RG and display the detected speed on two 7-segment LED displays. To do this, the receiver system was implemented using a Xilinx CPLD XC2C64A-7VQG44C, which enables flexibility in design testing and updating without requiring any hardware modifications. Thus, greatly reducing the project development time. The CPLD and microcontroller communicate using an industry standard, RS485, ensuring dependable and efficient communication between the components.
 
+![20230418_122524](https://github.com/Arfan0612/Speed-Detector-based-on-STM-and-XilinxCPLD/assets/94776851/de6c9307-1eb1-40f4-bda7-26b5f7d67cb7)
+
 Refer to the report **Speed_Detector_Report_2023.pdf** attached for a better explanation of the system.
 
 # Speed_Detector_STM_Xilinx
